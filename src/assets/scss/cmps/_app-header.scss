@@ -1,0 +1,19 @@
+.app-header {
+  background-color: $clr1;
+  color: white;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    nav {
+      a {
+        margin: 5px;
+        &:last-child {
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+}

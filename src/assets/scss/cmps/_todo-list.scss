@@ -1,0 +1,24 @@
+.todo-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        transition: background-color 0.6s;
+        background-color: rgba(211, 211, 211, 0.553);
+      }
+
+      .done {
+        text-decoration-line: line-through;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.todo-preview {
+  color: $clr4;
+  padding: 5px;
+  text-align: center;
+
+  p {
+    font-size: 20px;
+  }
+
+  span {
+  }
+
+  button {
+    background-color: none;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin: 3px;
+  }
+}
